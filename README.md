@@ -3,6 +3,7 @@ This is an educational project on data cleaning and preparation using SQL. The o
 # Data Exploration
 ## Preview Data
 **SQL:** SELECT * FROM CLUB_MEMBER_INFO LIMIT 5;`
+
 **Result**
 
 |full_name|age|martial_status|email|phone|full_address|job_title|membership_date|
