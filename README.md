@@ -16,6 +16,7 @@ This is an educational project on data cleaning and preparation using SQL. The o
 
 ## Create a new table for cleaning
 Let's generate a new table where we can manipulate and restructure the data without modifying the original dataset.
+
 **SQL:** CREATE TABLE club_member_info_cleaned (
 	full_name VARCHAR(50),
 	age INTEGER,
