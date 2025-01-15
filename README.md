@@ -3,6 +3,7 @@ This is an educational project on data cleaning and preparation using SQL. The o
 # Data Exploration
 ## Preview Data
 **SQL:** SELECT * FROM CLUB_MEMBER_INFO LIMIT 5;
+
 **Result**
 
 |full_name|age|martial_status|email|phone|full_address|job_title|membership_date|
@@ -25,6 +26,7 @@ Let's generate a new table where we can manipulate and restructure the data with
 	job_title VARCHAR(50),
 	membership_date VARCHAR(50)
 );
+
 **Result:**
 
 |full_name|age|martial_status|email|phone|full_address|job_title|membership_date|
@@ -33,6 +35,7 @@ Let's generate a new table where we can manipulate and restructure the data with
 ## Copy all values from original table
 **SQL:** INSERT INTO club_member_info_cleaned
 SELECT * FROM club_member_info;
+
 **Result:**
 
 |full_name|age|martial_status|email|phone|full_address|job_title|membership_date|
